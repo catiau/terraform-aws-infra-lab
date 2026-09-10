@@ -1,60 +1,57 @@
-# ☁️ Terraform AWS Infrastructure Lab
+# Terraform AWS Infrastructure Lab
 
-A hands-on Infrastructure as Code lab focused on building AWS infrastructure with Terraform — from core concepts to production-oriented architectures and CI/CD automation.
+A repository I'm using to practice Terraform and AWS by building infrastructure from scratch.
 
-This repository documents my practical learning journey through progressively more complex infrastructure challenges, covering AWS networking, compute, security, Terraform modules, remote state, CI/CD, and infrastructure automation.
+The idea is simple: start with the basics and gradually move into networking, high availability, modules, remote state and CI/CD.
 
----
+## Challenges
 
-## 🎯 Project Goals
+| # | Challenge | Status |
+|---|---|---|
+| 01 | EC2 Fundamentals | ✅ |
+| 02 | AWS Networking | ✅ |
+| 03 | Security & Compute | ⏳ |
+| 04 | High Availability | |
+| 05 | Auto Scaling | |
+| 06 | Terraform Modules | |
+| 07 | Remote State | |
+| 08 | CI/CD with GitHub Actions | |
+| 09 | AWS CI/CD with OIDC | |
+| 10 | Production Infrastructure | |
 
-The goal of this repository is to strengthen practical skills in:
+Each challenge has its own README with notes about what I built and what I learned along the way.
 
-- Infrastructure as Code (IaC)
-- Terraform
-- AWS
-- Cloud Networking
-- Infrastructure Security
-- High Availability
-- Infrastructure Automation
-- CI/CD
-- DevOps and SRE practices
+## What I've worked with so far
 
-Each challenge introduces new concepts while building on knowledge from previous exercises.
+**Terraform**
+- Providers and resources
+- Variables and outputs
+- Data sources
+- Resource references and dependencies
 
----
+**AWS**
+- EC2
+- VPC
+- Subnets and CIDR
+- Internet Gateway
+- Route Tables
+- Security Groups
 
-## 🗺️ Learning Roadmap
+More to come as I progress through the challenges.
 
-| Challenge | Topic | Key Concepts | Status |
-|---|---|---|---|
-| 01 | EC2 Fundamentals | Provider, Resources, Variables, Data Sources, Outputs | ✅ Completed |
-| 02 | AWS Networking | VPC, Subnets, CIDR, Internet Gateway, Route Tables | ⏳ Next |
-| 03 | Security & Compute | Security Groups, EC2 networking, User Data | 🔒 Locked |
-| 04 | High Availability | Multi-AZ, ALB, Target Groups | 🔒 Locked |
-| 05 | Auto Scaling | Launch Templates, ASG, Health Checks | 🔒 Locked |
-| 06 | Terraform Modules | Reusable infrastructure components | 🔒 Locked |
-| 07 | Remote State | S3 Backend, State Locking, Environments | 🔒 Locked |
-| 08 | CI/CD Fundamentals | GitHub Actions, fmt, validate, plan | 🔒 Locked |
-| 09 | CI/CD on AWS | OIDC, IAM, automated deployments | 🔒 Locked |
-| 10 | Production Infrastructure | Complete highly available AWS architecture | 🔒 Locked |
-
----
-
-## 🏗️ Repository Structure
+## Repository
 
 ```text
 terraform-aws-infra-lab/
-│
 ├── challenge-01/
-│   ├── main.tf
-│   ├── provider.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-│   └── README.md
-│
 ├── challenge-02/
-│   └── ...
-│
+├── challenge-03/
 ├── .gitignore
 └── README.md
+```
+
+## Why this repo?
+
+I'm using this project to get more comfortable with infrastructure and cloud concepts through hands-on practice rather than just studying the theory.
+
+Every challenge adds something new to the previous one, so the infrastructure gets more realistic as the project evolves.
