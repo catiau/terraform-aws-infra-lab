@@ -10,7 +10,7 @@ The idea is simple: start with the basics and gradually move into networking, hi
 |---|---|---|
 | 01 | EC2 Fundamentals | ✅ |
 | 02 | AWS Networking | ✅ |
-| 03 | Security & Compute | ⏳ |
+| 03 | Security & Compute | ✅ |
 | 04 | High Availability | |
 | 05 | Auto Scaling | |
 | 06 | Terraform Modules | |
